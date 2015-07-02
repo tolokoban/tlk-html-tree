@@ -1,0 +1,30 @@
+{
+  "name": "tlk-html-tree",
+  "version": "0.0.1",
+  "description": "Fast parsing and easy manipulation of an HTML 5 tree.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tolokoban/tlk-html-tree.git"
+  },
+  "keywords": [
+    "HTML",
+    "HTML5",
+    "tree",
+    "parsing",
+    "tolokoban"
+  ],
+  "author": "Tolokoban",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/tolokoban/tlk-html-tree/issues"
+  },
+  "homepage": "https://github.com/tolokoban/tlk-html-tree",
+  "dependencies": {
+    "jasmine": "^2.3.1",
+    "tlk-state-machine": "^1.1.1"
+  }
+}
