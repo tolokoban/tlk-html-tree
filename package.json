@@ -4,7 +4,8 @@
   "description": "Fast parsing and easy manipulation of an HTML 5 tree.",
   "main": "src/index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine",
+    "debug": "node --debug-brk node_modules/jasmine/bin/jasmine.js"
   },
   "repository": {
     "type": "git",
