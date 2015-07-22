@@ -4,8 +4,8 @@
   "description": "Fast parsing and easy manipulation of an HTML 5 tree.",
   "main": "src/index.js",
   "scripts": {
-    "test": "jasmine",
-    "debug": "node --debug-brk node_modules/jasmine/bin/jasmine.js"
+    "test": "jasmine-node spec",
+    "debug": "node --debug-brk node_modules/jasmine-node/bin/jasmine-node spec"
   },
   "repository": {
     "type": "git",
@@ -19,13 +19,13 @@
     "tolokoban"
   ],
   "author": "Tolokoban",
-  "license": "GPL",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/tolokoban/tlk-html-tree/issues"
   },
   "homepage": "https://github.com/tolokoban/tlk-html-tree",
   "dependencies": {
-    "jasmine": "^2.3.1",
+    "jasmine-node": "^1.14.5",
     "tlk-state-machine": "^1.1.1"
   }
 }
